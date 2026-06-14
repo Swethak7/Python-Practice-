@@ -1,0 +1,12 @@
+a=int(input('enter bill.no:'))
+b=int(input('enter no.of items:'))
+print('[s.no,item,price per item,qty,net price]')
+l=[]
+for i in range(b):
+	x=input('enter item:')
+	y=int(input('enter price per item:'))
+	z=int(input('enter qty:'))
+	d=y*z
+	q=[x,y,z,d]
+	l.append(q)
+print('bill:',l)
