@@ -1,0 +1,9 @@
+z=input('select area: rayapuram/pulicat:')
+v=[['rayapuram',17,1200],['pulicat',20,1800]]
+if z==v[0][0]:
+	print('boats:',int(v[0][1]))
+	print('fishes catched',int(v[0][2]),'kgs')
+else:
+	print('boats:',v[1][1])
+	print('fishes catched',int(v[1][2]),'kgs')
+print('completed')
